@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base tweaks */
+@layer base {
+  html { @apply h-full; }
+  body { @apply min-h-screen font-sans bg-gray-50 text-gray-800 antialiased; }
+}
+
+/* Optional component helpers */
+@layer components {
+  .card { @apply rounded-2xl border border-gray-200 bg-white shadow; }
+}
